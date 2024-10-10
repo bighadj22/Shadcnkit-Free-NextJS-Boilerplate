@@ -8,49 +8,6 @@ import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import Particles from "@/components/ui/particles";
 import { useTheme } from 'next-themes';
 
-// Mock data for testimonials
-const testimonials = [
-  {
-    name: "Sarah Johnson",
-    company: "TechCorp",
-    testimonial: "ShadcnKit's free starter kit is a game-changer for rapid prototyping. It's saved us so much time!",
-    avatar: "/1.jpeg",
-  },
-  {
-    name: "Michael Chen",
-    company: "InnovateLab",
-    testimonial: "The documentation for ShadcnKit free version is top-notch. It made our learning curve so much smoother.",
-    avatar: "/2.jpeg",
-  },
-  {
-    name: "Emily Rodriguez",
-    company: "DesignHub",
-    testimonial: "We love how customizable ShadcnKit is, even in its free version. It's perfect for our design needs.",
-    avatar: "/3.jpeg",
-  },
-  {
-    name: "David Kim",
-    company: "StartupX",
-    testimonial: "ShadcnKit's free starter kit gave us a solid foundation to build upon. It's been crucial for our MVP.",
-    avatar: "/4.jpeg",
-  },
-  {
-    name: "Lisa Thompson",
-    company: "GrowthCo",
-    testimonial: "The components in ShadcnKit's free version are so well-designed. It's improved our UI consistency greatly.",
-    avatar: "/5.jpeg",
-  },
-  {
-    name: "Alex Patel",
-    company: "FutureTech",
-    testimonial: "We started with ShadcnKit's free version and it's already revolutionized our development process.",
-    avatar: "/6.jpeg",
-  },
-];
-
-const firstRow = testimonials.slice(0, testimonials.length / 2);
-const secondRow = testimonials.slice(testimonials.length / 2);
-
 interface TestimonialCardProps {
   avatar: string;
   name: string;
@@ -97,7 +54,19 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ avatar, name, company
   );
 };
 
-const TestimonialSection: React.FC = () => {
+interface TestimonialSectionProps {
+  translations: {
+    title: string;
+    subtitle: string;
+    testimonials: Array<{
+      name: string;
+      company: string;
+      testimonial: string;
+    }>;
+  };
+}
+
+const TestimonialSection: React.FC<TestimonialSectionProps> = ({ translations }) => {
   const { theme } = useTheme();
   const [particleColor, setParticleColor] = useState("#ffffff");
 
@@ -105,8 +74,14 @@ const TestimonialSection: React.FC = () => {
     setParticleColor(theme === "dark" ? "#ffffff" : "#000000");
   }, [theme]);
 
+  const avatars = ["/1.jpeg", "/2.jpeg", "/3.jpeg", "/4.jpeg", "/5.jpeg", "/6.jpeg"];
+  const testimonials = translations.testimonials.map((t, i) => ({ ...t, avatar: avatars[i] }));
+
+  const firstRow = testimonials.slice(0, testimonials.length / 2);
+  const secondRow = testimonials.slice(testimonials.length / 2);
+
   return (
-    <section className="relative z-[2] flex w-full flex-col pt-5 pb-5 mt-5 overflow-hidden">
+    <section className="relative z-[2] flex w-full flex-col pt-10 pb-5 overflow-hidden">
       <Particles
         className="absolute inset-0 pointer-events-none"
         quantity={100}
@@ -115,13 +90,13 @@ const TestimonialSection: React.FC = () => {
         color={particleColor}
       />
       <div className="flex max-w-[unset] flex-col px-5 md:px-10 xl:px-0 relative z-10">
-        <div className="mb-10 flex w-[stretch] flex-col">
+        <div className="mb-10 flex w-full flex-col">
           <div className="mx-auto flex flex-col items-center text-center">
-            <AnimatedGradientText className="mx-auto mb-2.5 w-max px-4 py-2 text-foreground">
-              What Our Clients Say
+            <AnimatedGradientText className="mb-4 w-max px-4 py-2 text-foreground">
+              {translations.title}
             </AnimatedGradientText>
-            <h2 className="mx-auto mb-5 w-full text-center text-3xl font-extrabold text-foreground md:mb-8 md:w-[100%] md:text-[48px] md:leading-[60px] lg:w-[90%] xl:w-[70%] xl:text-6xl xl:leading-[70px] 2xl:w-[60%]">
-              Hear from our satisfied customers
+            <h2 className="mx-auto w-full max-w-3xl text-center text-3xl font-extrabold text-foreground md:text-4xl lg:text-5xl">
+              {translations.subtitle}
             </h2>
           </div>
         </div>

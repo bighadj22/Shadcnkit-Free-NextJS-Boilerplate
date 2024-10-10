@@ -121,5 +121,90 @@
   "emails": "قد نستخدم بريدك الإلكتروني للاتصال بك بخصوص حسابك وتحديثات المنتج وأنشطة تسويقية أخرى. يمكنك إلغاء الاشتراك في هذه الرسائل الإلكترونية في أي وقت بالنقر على رابط \"إلغاء الاشتراك\" الموجود في أسفل أي رسالة بريد إلكتروني.",
   "conditionsTitle": "الشروط",
   "conditions": "نحتفظ بالحق في تغيير أو تعديل سياستنا في أي وقت. من خلال الاستمرار في استخدام منصتنا، فإنك توافق على هذه الشروط والأحكام. إذا كانت لديك أي أسئلة أو مخاوف بشأن سياستنا، يرجى الاتصال بفريق دعم العملاء لدينا."
+},
+"Features": {
+  "title": "Fonctionnalités du modèle Open Source",
+  "subtitle": "Accélérez le développement avec ShadcnKit",
+  "cards": [
+    {
+      "title": "Next.js 14 avec App Router",
+      "description": "Créez des applications web puissantes et efficaces en utilisant la dernière version de Next.js avec le nouveau App Router.",
+      "feature": "NEXT.JS 13+",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Intégration de la base de données Cloudflare D1",
+      "description": "Intégrez de manière transparente la base de données D1 de Cloudflare en utilisant Drizzle ORM pour une gestion efficace des données.",
+      "feature": "CLOUDFLARE D1",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Authentification Logto",
+      "description": "Mettez en œuvre une authentification sécurisée et conviviale avec Logto, assurant une expérience utilisateur fluide.",
+      "feature": "LOGTO AUTH",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Fonctionnalité d'envoi d'e-mails Resend",
+      "description": "Envoyez facilement des e-mails en utilisant Resend, un service d'e-mail fiable et convivial pour les développeurs.",
+      "feature": "RESEND EMAILS",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Système de blog avec routage dynamique",
+      "description": "Créez et gérez un blog riche en fonctionnalités avec un routage dynamique pour une expérience utilisateur engageante.",
+      "feature": "DYNAMIC BLOG",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Support de l'internationalisation",
+      "description": "Construisez facilement des applications multilingues en utilisant le support intégré d'internationalisation (i18n).",
+      "feature": "INTERNATIONALIZATION",
+      "learnMore": "En savoir plus"
+    },
+    {
+      "title": "Tableau de bord administrateur",
+      "description": "Gérez et surveillez votre application avec un puissant tableau de bord administrateur, accessible uniquement aux utilisateurs autorisés.",
+      "feature": "ADMIN DASHBOARD",
+      "learnMore": "En savoir plus"
+    }
+  ]
+},
+"Testimonials": {
+  "title": "Ce que disent nos clients",
+  "subtitle": "Écoutez nos clients satisfaits",
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "company": "TechCorp",
+      "testimonial": "Le kit de démarrage gratuit de ShadcnKit est un véritable game-changer pour le prototypage rapide. Cela nous a fait gagner tellement de temps !"
+    },
+    {
+      "name": "Michael Chen",
+      "company": "InnovateLab",
+      "testimonial": "La documentation de la version gratuite de ShadcnKit est excellente. Cela a rendu notre courbe d'apprentissage beaucoup plus douce."
+    },
+    {
+      "name": "Emily Rodriguez",
+      "company": "DesignHub",
+      "testimonial": "Nous adorons à quel point ShadcnKit est personnalisable, même dans sa version gratuite. C'est parfait pour nos besoins en design."
+    },
+    {
+      "name": "David Kim",
+      "company": "StartupX",
+      "testimonial": "Le kit de démarrage gratuit de ShadcnKit nous a donné une base solide sur laquelle construire. Cela a été crucial pour notre MVP."
+    },
+    {
+      "name": "Lisa Thompson",
+      "company": "GrowthCo",
+      "testimonial": "Les composants de la version gratuite de ShadcnKit sont si bien conçus. Cela a grandement amélioré la cohérence de notre interface utilisateur."
+    },
+    {
+      "name": "Alex Patel",
+      "company": "FutureTech",
+      "testimonial": "Nous avons commencé avec la version gratuite de ShadcnKit et cela a déjà révolutionné notre processus de développement."
+    }
+  ]
 }
+
 }

@@ -124,5 +124,90 @@
   "emails": "We may use your email to contact you about your account, product updates, and other marketing activities. You can unsubscribe from these emails at any time by clicking the \"unsubscribe\" link at the bottom of any email.",
   "conditionsTitle": "Conditions",
   "conditions": "We reserve the right to change or amend our policy at any time. By continuing to use our platform, you agree to these terms and conditions. If you have any questions or concerns about our policy, please contact our customer support team."
+},
+"Features": {
+  "title": "Open Source Boilerplate Features",
+  "subtitle": "Accelerate Development with ShadcnKit",
+  "cards": [
+    {
+      "title": "Next.js 14 with App Router",
+      "description": "Build powerful and efficient web applications using the latest version of Next.js with the new App Router.",
+      "feature": "NEXT.JS 13+",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Cloudflare D1 Database Integration",
+      "description": "Seamlessly integrate with Cloudflare's D1 database using Drizzle ORM for efficient data management.",
+      "feature": "CLOUDFLARE D1",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Logto Authentication",
+      "description": "Implement secure and user-friendly authentication with Logto, ensuring a smooth user experience.",
+      "feature": "LOGTO AUTH",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Resend Email Functionality",
+      "description": "Easily send emails using Resend, a reliable and developer-friendly email service.",
+      "feature": "RESEND EMAILS",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Blog System with Dynamic Routing",
+      "description": "Create and manage a feature-rich blog with dynamic routing for an engaging user experience.",
+      "feature": "DYNAMIC BLOG",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Internationalization Support",
+      "description": "Build multilingual applications with ease using the built-in internationalization (i18n) support.",
+      "feature": "INTERNATIONALIZATION",
+      "learnMore": "Learn More"
+    },
+    {
+      "title": "Admin User Dashboard",
+      "description": "Manage and monitor your application with a powerful admin dashboard, accessible only to authorized users.",
+      "feature": "ADMIN DASHBOARD",
+      "learnMore": "Learn More"
+    }
+  ]
+},
+"Testimonials": {
+  "title": "What Our Clients Say",
+  "subtitle": "Hear from our satisfied customers",
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "company": "TechCorp",
+      "testimonial": "ShadcnKit's free starter kit is a game-changer for rapid prototyping. It's saved us so much time!"
+    },
+    {
+      "name": "Michael Chen",
+      "company": "InnovateLab",
+      "testimonial": "The documentation for ShadcnKit free version is top-notch. It made our learning curve so much smoother."
+    },
+    {
+      "name": "Emily Rodriguez",
+      "company": "DesignHub",
+      "testimonial": "We love how customizable ShadcnKit is, even in its free version. It's perfect for our design needs."
+    },
+    {
+      "name": "David Kim",
+      "company": "StartupX",
+      "testimonial": "ShadcnKit's free starter kit gave us a solid foundation to build upon. It's been crucial for our MVP."
+    },
+    {
+      "name": "Lisa Thompson",
+      "company": "GrowthCo",
+      "testimonial": "The components in ShadcnKit's free version are so well-designed. It's improved our UI consistency greatly."
+    },
+    {
+      "name": "Alex Patel",
+      "company": "FutureTech",
+      "testimonial": "We started with ShadcnKit's free version and it's already revolutionized our development process."
+    }
+  ]
 }
+
 }

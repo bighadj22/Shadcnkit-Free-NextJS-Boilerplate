@@ -32,17 +32,14 @@ export default async function LandingPage({ params: { locale } }: { params: { lo
             isAuthenticated={isAuthenticated}  
             onSignIn={handleSignIn} 
           />
-
-        <Features />
+          <Features translations={translations.features} />
     
-     
-  
-          <TestimonialSection />
+          <TestimonialSection translations={translations.testimonials} />
+          
           <BlogCardsSection  
             translations={translations.blogCardsSection} 
             locale={locale} 
           />
-  
         </main>
         <FooterWebsite translations={translations.footer} locale={locale} />
       </div>
