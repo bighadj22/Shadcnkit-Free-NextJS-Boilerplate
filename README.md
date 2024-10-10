@@ -1,5 +1,7 @@
 # ShadcnKit: Next.js Open Source Boilerplate
 
+![ShadcnKit Logo](https://utfs.io/f/xCtsHZ5BWJ2zVXs18oexAX2p9Lswv4ng7eoRHBPrjzlGVdOK)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
