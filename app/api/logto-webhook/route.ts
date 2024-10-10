@@ -4,7 +4,6 @@ import { createDb } from "@/db";
 import { users } from "@/db/schema"
 import { Resend } from 'resend';
 import EmailTemplate from '@/components/email/EmailTemplate';
-import axios from 'axios';
 import CryptoJS from 'crypto-js';
 
 // Set the runtime to edge for faster execution
@@ -51,19 +50,26 @@ async function sendEventToFacebook(eventName: string, userData: any, customData:
   console.log('Data being sent to Facebook:', JSON.stringify(eventData, null, 2));
 
   try {
-    const response = await axios.post(
-      `${FACEBOOK_GRAPH_API_URL}/${FACEBOOK_PIXEL_ID}/events`,
-      eventData,
-      {
-        params: { access_token: FACEBOOK_ACCESS_TOKEN },
-      }
-    );
-    console.log('Server event sent to Facebook:', response.data);
-    return response.data;
+    const response = await fetch(`${FACEBOOK_GRAPH_API_URL}/${FACEBOOK_PIXEL_ID}/events?access_token=${FACEBOOK_ACCESS_TOKEN}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(eventData),
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log('Server event sent to Facebook:', data);
+    return data;
   } catch (error) {
     console.error('Error sending server event to Facebook:', error);
     throw error;
   }
+
 }
 
 // Main webhook handler for POST requests
