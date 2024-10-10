@@ -1,0 +1,128 @@
+{
+
+
+"BlogCardsSection": {
+  "title": "Latest Articles",
+  "subtitle": "Our Blog",
+  "checkoutPosts": "Check out our other posts"
+},
+
+
+"Layout": {
+  "title": "Accelerate Your App Development with Shadcn Kit",
+  "siteName": "Shadcn Kit",
+  "description": "Integrate seamlessly with Cloudflare, D1, Logto, Shadcn components, Resend, Magic UI, Internationalization support (i18n).",
+  "logoAlt": "Shadcn Kit Logo"
+},
+
+"Blog": {
+  "blogTitle": "Shadcnkit Blog",
+  "viewOnGithub": "View on GitHub",
+  "checkoutPosts": "Check out our other posts",
+  "seeAllPosts": "See all posts",
+  "publishedOn": "Published on"
+},
+
+  "adminFooterWebsite": {
+    "allRightsReserved": "All Rights Reserved.",
+    "faqs": "FAQs", 
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "refundPolicy": "Refund Policy",
+    "blog": "Blog"
+  },
+
+  "Routes": {  
+    "dashboard": "User Dashboard",
+    "admin": "Admin Dashboard"
+  },
+
+  "Main": {
+    "title": "Dashboard",
+    "description": "Your account overview",
+    "statistics": {
+      "totalNotes": "Total Notes",
+      "totalTasks": "Total Tasks", 
+      "totalFolders": "Total Folders",
+      "activeUsers": "Active Users" 
+    },
+    "manage": "Manage",
+    "brandText": "Dashboard",
+    "adminDashboardWelcome": "Welcome to your admin Dashboard",
+    "yourRole": "Your role"
+  },
+
+  "LocaleSwitcher": {
+    "switchLocale": "Switch language"
+  },
+
+  "LandingPage": {
+    "title": "Welcome to Shadcnkit",
+    "description": "Your AI-powered chatbot solution"
+  },
+
+  "NavbarFixed": {
+    "dashboard": "Dashboard",
+    "features": "Features",
+    "login": "Login",
+    "getStartedForFree": "Get started for Free",
+    "signOut": "Sign Out",
+    "documentation": "Documentation"
+  },
+
+  "Hero": { 
+    "badge": "All-in-One Next.js Starter Kit",
+    "title": "Accelerate Your App Development with Shadcn Kit",
+    "description": "Integrate seamlessly with Cloudflare, D1, Logto, Shadcn components, Resend, Magic UI, Internationalization support (i18n).",
+    "exploreDashboard": "Explore Dashboard",
+    "startForFree": "Live Preview",
+    "browsePricingPlans": "Get Open Source Kit"
+  },
+
+  "FooterWebsite": {
+    "pricing": "Pricing",
+    "account": "Live Demo",
+    "refundPolicy": "Refund Policy",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "blog": "Blog"
+  }
+
+,
+"PrivacyPolicy": {
+  "title": "Privacy Policy",
+  "lastUpdated": "Last Updated on 10 October 2024",
+  "introduction": "This statement describes how ShadcnKit (\"ShadcnKit\", \"we\", \"us\", or \"our\") collects, uses, shares, stores, and processes data about users of the ShadcnKit services (the \"Services\") and data processed through our website, which presents our products and services (the \"Website\").",
+  "definitionsTitle": "Definitions",
+  "definitions": "In this Privacy Policy: \"Customer\" means the person or business who is using the free version of the Services or has purchased the pro version of the Services. \"User\" means an individual using the Services, either the free or pro version. \"Visitor\" means an individual browsing our Website. \"data\" refers to any information that identifies or could be reasonably associated with an individual.",
+  "infoWeCollectTitle": "Information We Collect",
+  "infoWeCollect": "We collect various types of information to provide and improve our Services, including: 3.1 Information You Provide: You may provide information to us when you interact with our Services in order to use them. 3.2 Usage Information: We may automatically collect the necessary information to operate the platform or enhance the service.",
+  "howWeUseTitle": "How we use your Information",
+  "howWeUse": "We use the information we collect for purposes including: 4.1 Providing and Improving Services: We use the information to deliver our services, personalise your experience, and improve with new features. 4.2 Communications: By creating an Account on our Service, you agree to subscribe to newsletters, marketing, or promotional materials, and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link. 4.3 Analytics: We may use analytics tools to analyse trends, track user interactions, and gather demographic information about our user base.",
+  "dataSecurityTitle": "Data Security",
+  "dataSecurity": "5.1 Encryption at transit & rest: At ShadcnKit, we are deeply committed to the security of your data. We put forth every best effort and utilise industry-standard measures to safeguard your information from unauthorised access, alteration, disclosure, or destruction. Our dedicated team continuously monitors our systems, employing advanced technologies and best practices to create a secure environment for our users. 5.2 GDPR Compliance: We comply with the General Data Protection Regulation (GDPR) regarding the collection, processing, and storage of data of individuals within the European Union (EU). We ensure that the rights of individuals under GDPR, including the right to access, rectification, erasure, and restriction of processing, are respected. For detailed information about our GDPR compliance practices, please refer to our GDPR Compliance document available at https://docs.shadcnkit.com/gdpr.",
+  "yourChoicesTitle": "Your Choices",
+  "yourChoices": "You have the right to access, update, or delete your personal information. You may also opt out of receiving promotional communications from us by following the instructions provided in communications (section 4.2) or by contacting us directly.",
+  "cookiesTitle": "Cookies",
+  "cookies": "Like any other website, shadcnkit.com uses 'cookies'. These cookies are used to store information, including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimise the users' experience by customising our web page content based on visitors' browser type and/or other information. For more general information on cookies, please read 'What Are Cookies'.",
+  "childPrivacyTitle": "Children's Privacy",
+  "childPrivacy": "Our Services are not intended for use by children under the age of 18 (\"Child\" or \"Children\"). We do not knowingly collect personally identifiable information from Children under 18. If you become aware that a Child has provided us with data, please contact us. If we become aware that we have collected data from Children without verification of parental consent, we will take steps to remove that information.",
+  "changesTitle": "Changes to This Privacy Policy",
+  "changes": "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. We will notify you of any material changes by posting the updated Privacy Policy on our website or through other appropriate channels.",
+  "contactUsTitle": "Contact Us",
+  "contactUs": "If you have any questions, concerns, or complaints about our Privacy Policy or practices, please contact us at support@shadcnkit.com."
+},
+"RefundPolicy": { 
+  "title": "Refund Policy",
+  "billingTitle": "Billing",
+  "billing": "By purchasing the pro version of our product, you agree to pay a one-time fee for access to our platform. The free version does not involve any billing. We reserve the right to change our pricing, pricing policies, features, and access restrictions at any time. If we do make any changes, we will notify you via email or through our website.",
+  "refundsTitle": "Refunds", 
+  "refunds": "Due to the nature of our digital product, we do not offer refunds for the pro version of ShadcnKit. Once the purchase is made, it is final. We encourage all potential customers to carefully review our product information and features before making a purchase. If you have any questions or concerns about our product before purchasing, please contact our customer support team. We will do our best to address your inquiries and ensure you have all the information needed to make an informed decision. The free version of ShadcnKit does not involve any payments, and thus no refunds are applicable.",
+  "cancellationTitle": "Cancellation",
+  "cancellation": "For the free version, you can stop using the service at any time without any formal cancellation process. For the pro version, as it's a one-time purchase, there's no subscription to cancel. You will retain access to the pro features for the current major version indefinitely.", 
+  "emailsTitle": "Emails",
+  "emails": "We may use your email to contact you about your account, product updates, and other marketing activities. You can unsubscribe from these emails at any time by clicking the \"unsubscribe\" link at the bottom of any email.",
+  "conditionsTitle": "Conditions",
+  "conditions": "We reserve the right to change or amend our policy at any time. By continuing to use our platform, you agree to these terms and conditions. If you have any questions or concerns about our policy, please contact our customer support team."
+}
+}
